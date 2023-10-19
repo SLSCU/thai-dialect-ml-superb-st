@@ -22,3 +22,9 @@ In our paper, section 5, we described that we removed all spaces in transcriptio
 |:----------|-:|-:|-:|-:|-:|-:|-:|-:|-:|
 |conformer|8.4|8.8|7.4|0.1|6.2|2.4|58.4|0.6|1.5|
 |XLS-R|31.7|24.7|8.1|3.7|14.0|9.7|58.8|5.4|7.3|
+
+## Acknowledgement
+
+We would like to thank the PMU-C grant (Thai Language Automatic Speech Recognition Interface for Community E-Commerce, C10F630122)
+for the support of this research. 
+We also would like to acknowledge the Apex compute cluster team which provides compute support for this project.
