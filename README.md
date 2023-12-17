@@ -4,7 +4,7 @@ This is the speech translation experiment from `THAI-DIALECT: LOW RESOURCE THAI 
 
 ## experimental setup
 
-We also utilzed S3PRL and ESPNet toolkit in this experiment. The Conformer and XLS-R were carried out to be our baselines. Conformer is Transformer-based conventional Auto-regressive Encoder-Decoder (AED) using Conformer architecture as an encoder. XLS-R is AED using XLS-R as a feature extraction. Configuration of each baseline model can be founded at `train_st_conformer.yaml` and `train_st_xls_r.yaml`.
+We also utilzed S3PRL and ESPNet toolkit in this experiment. The Conformer and XLS-R were carried out to be our baselines. Conformer is Transformer Auto-regressive Encoder-Decoder (AED) using Conformer architecture as an encoder. XLS-R is AED using XLS-R as a feature extraction. Configuration of each baseline model can be founded at `train_st_conformer.yaml` and `train_st_xls_r.yaml`.
 
 In our paper, section 5, we described that we removed all spaces in transcriptions for ASR task since it can make the rote memorization. For ST task, spaces are kept for being possible to using BLEU score evaluation. 
 
